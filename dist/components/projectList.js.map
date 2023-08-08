@@ -1,0 +1,1 @@
+{"version":3,"file":"projectList.js","sourceRoot":"","sources":["../../src/components/projectList.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,WAAW;IAGtB;QACE,IAAI,CAAC,eAAe,GAAG,EAAE,CAAC;IAC5B,CAAC;IAED,UAAU,CAAC,OAAe;QACxB,MAAM,UAAU,GAAG,OAAO,CAAC;QAC3B,IAAI,CAAC,eAAe,CAAC,IAAI,CAAC,UAAU,CAAC,CAAC;IACxC,CAAC;CACF"}

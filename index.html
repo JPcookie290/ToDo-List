@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a8d154e7d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../dist/main.js" defer></script>
+
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <template id="todo-header">
+      <header>
+        <h1>To-Do List</h1>
+        <button type="submit"><i class="fa-solid fa-plus"></i></button>
+      </header>
+    </template>
+    <template id="input-project">
+      <label for="project-title">Project Title</label>
+      <input type="text" />
+
+      <label for="project-description">Description</label>
+      <input type="text" />
+
+      <label for="project-start">Start Date</label>
+      <input type="date" />
+
+      <label for="project-end">End Date</label>
+      <input type="date" />
+
+      <button type="submit"><i class="fa-solid fa-check"></i></button>
+    </template></template>
+    <template id="input-item">
+        <label for="project-title">To-Do Title</label>
+        <input type="text" />
+
+        <label for="project-description">Description</label>
+        <input type="text" />
+
+        <div>
+            <label for="priority-high">High</label>
+            <input type="checkbox" id="priority-high">
+            <label for="priority-medium">Medium</label>
+            <input type="checkbox" id="priority-medium">
+            <label for="priority-low">Low</label>
+            <input type="checkbox" id="priority-low">
+        </div>
+
+        <label for="project-end">End Date</label>
+        <input type="date" />
+
+        <button type="submit"><i class="fa-solid fa-check"></i></button>
+    </template>
+    <template id="single-item">
+      <li>
+        <h2></h2>
+        <p></p>
+        <h3></h3>
+      </li>
+      <button><i class="fa-solid fa-pen-to-square"></i></button>
+    </template>
+    <div id="app"></div>
+  </body>
+</html>
